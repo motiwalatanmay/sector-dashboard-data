@@ -23,17 +23,16 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run pipeline
+      - name: Run pipeline (skip GitHub API push — git commit handles it)
         env:
-          GITHUB_TOKEN: ${{ secrets.DATA_REPO_TOKEN }}
           GITHUB_USER: motiwalatanmay
           GITHUB_REPO: sector-dashboard-data
         run: python run_pipeline.py
 
-      - name: Commit updated sector_data.json (fallback if API push fails)
+      - name: Commit and push updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add sector_data.json medians_curated.json medians_curated.backup.json pipeline.log || true
           git diff --cached --quiet || git commit -m "pipeline: daily update $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push || true
+          git push
