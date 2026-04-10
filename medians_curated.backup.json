@@ -1,0 +1,21 @@
+{
+  "source": "screener.in /company/{slug}/ — PE Ratio chart, 3Yr/5Yr/10Yr toggles",
+  "scraped_at": "2026-04-06",
+  "note": "Re-scrape monthly via scrape_medians.py. Values read from 'Median Index PE = X' label.",
+  "medians": {
+    "NIFTY 50":              {"median3y": 22.3, "median5y": 22.3, "median10y": 23.4, "slug": "NIFTY"},
+    "NIFTY NEXT 50":         {"median3y": 23.3, "median5y": 23.6, "median10y": 27.5, "slug": "NIFTYJR"},
+    "NIFTY SMALLCAP 250":    {"median3y": 28.7, "median5y": 28.3, "median10y": 29.7, "slug": "SMALLCA250"},
+    "NIFTY MICROCAP 250":    {"median3y": 28.6, "median5y": 28.6, "median10y": 28.6, "slug": "NFMICRO250"},
+    "NIFTY BANK":            {"median3y": 15.2, "median5y": 16.3, "median10y": 23.6, "slug": "BANKNIFTY"},
+    "NIFTY PSU BANK":        {"median3y":  8.0, "median5y":  8.5, "median10y":  8.6, "slug": "CNXPSUBANK"},
+    "NIFTY AUTO":            {"median3y": 25.4, "median5y": 29.4, "median10y": 31.8, "slug": "CNXAUTO"},
+    "NIFTY REALTY":          {"median3y": 48.5, "median5y": 50.0, "median10y": 48.8, "slug": "CNXREALTY"},
+    "NIFTY IT":              {"median3y": 27.7, "median5y": 27.9, "median10y": 25.1, "slug": "CNXIT"},
+    "NIFTY INFRA":           {"median3y": 21.9, "median5y": 21.3, "median10y": 23.2, "slug": "CNXINFRAST"},
+    "NIFTY PHARMA":          {"median3y": 33.5, "median5y": 33.3, "median10y": 35.2, "slug": "CNXPHARMA"},
+    "NIFTY FMCG":            {"median3y": 43.3, "median5y": 42.3, "median10y": 42.0, "slug": "CNXFMCG"},
+    "NIFTY METAL":           {"median3y": 21.0, "median5y": 18.9, "median10y": 16.1, "slug": "CNXMETAL"},
+    "NIFTY ENERGY":          {"median3y": 14.7, "median5y": 13.5, "median10y": 13.6, "slug": "CNXENERY"}
+  }
+}

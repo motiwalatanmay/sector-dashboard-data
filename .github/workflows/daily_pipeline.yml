@@ -1,0 +1,39 @@
+name: Daily Sector Pipeline
+
+on:
+  schedule:
+    # 5 PM IST = 11:30 UTC, daily
+    - cron: '30 11 * * *'
+  workflow_dispatch: # allow manual trigger from GitHub UI
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          GITHUB_TOKEN: ${{ secrets.DATA_REPO_TOKEN }}
+          GITHUB_USER: motiwalatanmay
+          GITHUB_REPO: sector-dashboard-data
+        run: python run_pipeline.py
+
+      - name: Commit updated sector_data.json (fallback if API push fails)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sector_data.json medians_curated.json medians_curated.backup.json pipeline.log || true
+          git diff --cached --quiet || git commit -m "pipeline: daily update $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push || true

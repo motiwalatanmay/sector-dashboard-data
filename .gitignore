@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+pipeline.log
+sector_dashboard_fixed.jsx
+sector_dashboard_preview.html
