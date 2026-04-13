@@ -1,6 +1,6 @@
 {
   "source": "screener.in /api/company/{id}/chart/ (Index PE + Median Index PE)",
-  "scraped_at": "2026-04-11T19:33:55.866331+05:30",
+  "scraped_at": "2026-04-12T19:37:19.030129+05:30",
   "note": "Auto-scraped via scrape_medians.py. Values parsed from 'Median Index PE = X'.",
   "medians": {
     "NIFTY 50": {
@@ -77,7 +77,7 @@
     },
     "NIFTY METAL": {
       "slug": "CNXMETAL",
-      "median3y": 20.9,
+      "median3y": 21.0,
       "median5y": 18.9,
       "median10y": 16.1
     },
