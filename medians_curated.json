@@ -1,6 +1,6 @@
 {
   "source": "screener.in /api/company/{id}/chart/ (Index PE + Median Index PE)",
-  "scraped_at": "2026-05-05T22:38:14.224035+05:30",
+  "scraped_at": "2026-05-06T22:40:40.057066+05:30",
   "note": "Auto-scraped via scrape_medians.py. Values parsed from 'Median Index PE = X'.",
   "medians": {
     "NIFTY 50": {
