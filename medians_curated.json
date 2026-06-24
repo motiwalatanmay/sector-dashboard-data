@@ -1,6 +1,6 @@
 {
   "source": "screener.in /api/company/{id}/chart/ (Index PE + Median Index PE)",
-  "scraped_at": "2026-06-23T19:30:03.089067+05:30",
+  "scraped_at": "2026-06-24T19:07:17.315441+05:30",
   "note": "Auto-scraped via scrape_medians.py. Values parsed from 'Median Index PE = X'.",
   "medians": {
     "NIFTY 50": {
@@ -23,7 +23,7 @@
     },
     "NIFTY MICROCAP 250": {
       "slug": "NIFTYMCAP250",
-      "median3y": 28.3,
+      "median3y": 28.4,
       "median5y": 28.3,
       "median10y": 28.3
     },
@@ -37,7 +37,7 @@
       "slug": "CNXPSUBANK",
       "median3y": 8.0,
       "median5y": 8.4,
-      "median10y": 8.5
+      "median10y": 8.4
     },
     "NIFTY AUTO": {
       "slug": "CNXAUTO",
@@ -84,7 +84,7 @@
     "NIFTY ENERGY": {
       "slug": "CNXENERY",
       "median3y": 14.9,
-      "median5y": 13.5,
+      "median5y": 13.6,
       "median10y": 13.7
     }
   }
