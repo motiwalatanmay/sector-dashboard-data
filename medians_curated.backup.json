@@ -1,6 +1,6 @@
 {
   "source": "screener.in /api/company/{id}/chart/ (Index PE + Median Index PE)",
-  "scraped_at": "2026-06-30T18:53:35.005440+05:30",
+  "scraped_at": "2026-07-01T19:22:44.609498+05:30",
   "note": "Auto-scraped via scrape_medians.py. Values parsed from 'Median Index PE = X'.",
   "medians": {
     "NIFTY 50": {
@@ -35,7 +35,7 @@
     },
     "NIFTY PSU BANK": {
       "slug": "CNXPSUBANK",
-      "median3y": 8.0,
+      "median3y": 8.1,
       "median5y": 8.4,
       "median10y": 8.4
     },
