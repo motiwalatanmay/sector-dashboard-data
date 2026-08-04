@@ -1,6 +1,6 @@
 {
   "source": "screener.in /api/company/{id}/chart/ (Index PE + Median Index PE)",
-  "scraped_at": "2026-08-02T18:06:19.542955+05:30",
+  "scraped_at": "2026-08-03T19:28:21.344459+05:30",
   "note": "Auto-scraped via scrape_medians.py. Values parsed from 'Median Index PE = X'.",
   "medians": {
     "NIFTY 50": {
@@ -65,7 +65,7 @@
     },
     "NIFTY PHARMA": {
       "slug": "CNXPHARMA",
-      "median3y": 33.9,
+      "median3y": 34.0,
       "median5y": 33.3,
       "median10y": 35.1
     },
