@@ -1,6 +1,6 @@
 {
   "source": "screener.in /api/company/{id}/chart/ (Index PE + Median Index PE)",
-  "scraped_at": "2026-08-07T17:40:15.847737+05:30",
+  "scraped_at": "2026-08-08T17:25:26.518160+05:30",
   "note": "Auto-scraped via scrape_medians.py. Values parsed from 'Median Index PE = X'.",
   "medians": {
     "NIFTY 50": {
@@ -13,7 +13,7 @@
       "slug": "NIFTYJR",
       "median3y": 22.2,
       "median5y": 23.0,
-      "median10y": 27.3
+      "median10y": 27.2
     },
     "NIFTY SMALLCAP 250": {
       "slug": "NIFTYSMLCAP250",
