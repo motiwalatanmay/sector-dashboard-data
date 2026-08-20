@@ -1,6 +1,6 @@
 {
   "source": "screener.in /api/company/{id}/chart/ (Index PE + Median Index PE)",
-  "scraped_at": "2026-08-18T17:22:48.462344+05:30",
+  "scraped_at": "2026-08-19T17:22:07.942657+05:30",
   "note": "Auto-scraped via scrape_medians.py. Values parsed from 'Median Index PE = X'.",
   "medians": {
     "NIFTY 50": {
@@ -19,7 +19,7 @@
       "slug": "NIFTYSMLCAP250",
       "median3y": 29.8,
       "median5y": 28.2,
-      "median10y": 29.9
+      "median10y": 30.0
     },
     "NIFTY MICROCAP 250": {
       "slug": "NIFTYMCAP250",
@@ -65,8 +65,8 @@
     },
     "NIFTY PHARMA": {
       "slug": "CNXPHARMA",
-      "median3y": 34.1,
-      "median5y": 33.3,
+      "median3y": 34.2,
+      "median5y": 33.4,
       "median10y": 35.1
     },
     "NIFTY FMCG": {
