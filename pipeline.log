@@ -21598,3 +21598,153 @@ Saved /home/runner/work/sector-dashboard-data/sector-dashboard-data/sector_data.
 2026-08-30 15:28:19,655  INFO      ────────────────────────────────────────────────────────────
 2026-08-30 15:28:19,655  INFO      Pipeline finished  2026-08-30 20:58 IST
 2026-08-30 15:28:19,655  INFO      ────────────────────────────────────────────────────────────
+2026-08-31 18:05:10,232  INFO      ────────────────────────────────────────────────────────────
+2026-08-31 18:05:10,232  INFO      Pipeline started  2026-08-31 23:35 IST
+2026-08-31 18:05:10,232  INFO      ────────────────────────────────────────────────────────────
+2026-08-31 18:05:10,232  INFO      
+[0/4]  Refreshing Screener medians…
+2026-08-31 18:05:10,361  INFO      scrape_medians: START  dry_run=False
+2026-08-31 18:05:10,362  INFO      [1/14] NIFTY 50 (id=1272594)
+2026-08-31 18:05:14,038  INFO            3Y=22.2  5Y=22.0  10Y=23.3
+2026-08-31 18:05:14,039  INFO      [2/14] NIFTY NEXT 50 (id=1272613)
+2026-08-31 18:05:17,203  INFO            3Y=22.0  5Y=22.9  10Y=27.0
+2026-08-31 18:05:17,203  INFO      [3/14] NIFTY SMALLCAP 250 (id=1275142)
+2026-08-31 18:05:20,350  INFO            3Y=29.9  5Y=28.3  10Y=30.0
+2026-08-31 18:05:20,351  INFO      [4/14] NIFTY MICROCAP 250 (id=1284386)
+2026-08-31 18:05:23,485  INFO            3Y=28.4  5Y=28.3  10Y=28.3
+2026-08-31 18:05:23,486  INFO      [5/14] NIFTY BANK (id=1272670)
+2026-08-31 18:05:26,648  INFO            3Y=15.0  5Y=16.0  10Y=23.0
+2026-08-31 18:05:26,649  INFO      [6/14] NIFTY PSU BANK (id=1272693)
+2026-08-31 18:05:29,798  INFO            3Y=8.0  5Y=8.3  10Y=8.4
+2026-08-31 18:05:29,798  INFO      [7/14] NIFTY AUTO (id=1272796)
+2026-08-31 18:05:32,961  INFO            3Y=25.6  5Y=29.7  10Y=30.7
+2026-08-31 18:05:32,961  INFO      [8/14] NIFTY REALTY (id=1272692)
+2026-08-31 18:05:36,133  INFO            3Y=46.6  5Y=47.7  10Y=48.8
+2026-08-31 18:05:36,134  INFO      [9/14] NIFTY IT (id=1272649)
+2026-08-31 18:05:39,300  INFO            3Y=27.7  5Y=27.3  10Y=25.1
+2026-08-31 18:05:39,300  INFO      [10/14] NIFTY INFRA (id=1272689)
+2026-08-31 18:05:42,466  INFO            3Y=21.8  5Y=21.2  10Y=23.2
+2026-08-31 18:05:42,467  INFO      [11/14] NIFTY PHARMA (id=1272672)
+2026-08-31 18:05:45,631  INFO            3Y=34.3  5Y=33.4  10Y=35.1
+2026-08-31 18:05:45,631  INFO      [12/14] NIFTY FMCG (id=1272711)
+2026-08-31 18:05:48,794  INFO            3Y=42.7  5Y=42.1  10Y=42.0
+2026-08-31 18:05:48,794  INFO      [13/14] NIFTY METAL (id=1272797)
+2026-08-31 18:05:51,961  INFO            3Y=20.9  5Y=19.1  10Y=16.0
+2026-08-31 18:05:51,961  INFO      [14/14] NIFTY ENERGY (id=1272671)
+2026-08-31 18:05:55,122  INFO            3Y=14.9  5Y=13.7  10Y=13.9
+2026-08-31 18:05:55,125  INFO      wrote medians_curated.json (14 sectors)
+2026-08-31 18:05:55,125  INFO      scrape_medians: DONE
+2026-08-31 18:05:55,125  INFO             Medians refreshed successfully
+2026-08-31 18:05:55,125  INFO      
+[1/4]  Fetching from NSE India…
+2026-08-31 18:05:55,127  INFO      NSE: warming up session (homepage hit)…
+2026-08-31 18:06:03,363  ERROR     NSE allIndices failed: Expecting value: line 1 column 1 (char 0)
+2026-08-31 18:06:10,772  WARNING   NSE missing price for 'NIFTY 50' — trying yfinance
+2026-08-31 18:06:12,156  INFO        yfinance fallback NIFTY 50: 24080.4
+2026-08-31 18:06:15,947  INFO        ✓  NIFTY 50                   price=24080.4  pe=None  earn=None  src=yfinance_price_only
+2026-08-31 18:06:19,578  WARNING   NSE missing price for 'NIFTY NEXT 50' — trying yfinance
+2026-08-31 18:06:19,726  INFO        yfinance fallback NIFTY NEXT 50: 73759.7
+2026-08-31 18:06:22,462  INFO        ✓  NIFTY NEXT 50              price=73759.7  pe=None  earn=None  src=yfinance_price_only
+2026-08-31 18:06:25,560  WARNING   NSE missing price for 'NIFTY SMALLCAP 250' — trying yfinance
+2026-08-31 18:06:28,610  WARNING     ✗  NIFTY SMALLCAP 250         no data
+2026-08-31 18:06:33,403  WARNING   NSE missing price for 'NIFTY MICROCAP 250' — trying yfinance
+2026-08-31 18:06:36,620  WARNING     ✗  NIFTY MICROCAP 250         no data
+2026-08-31 18:06:40,535  WARNING   NSE missing price for 'NIFTY BANK' — trying yfinance
+2026-08-31 18:06:40,784  INFO        yfinance fallback NIFTY BANK: 58024.95
+2026-08-31 18:06:43,132  INFO        ✓  NIFTY BANK                 price=58024.95  pe=None  earn=None  src=yfinance_price_only
+2026-08-31 18:06:47,200  WARNING   NSE missing price for 'NIFTY PSU BANK' — trying yfinance
+2026-08-31 18:06:49,206  WARNING     ✗  NIFTY PSU BANK             no data
+2026-08-31 18:06:53,708  WARNING   NSE missing price for 'NIFTY AUTO' — trying yfinance
+2026-08-31 18:06:57,299  WARNING     ✗  NIFTY AUTO                 no data
+2026-08-31 18:07:02,065  WARNING   NSE missing price for 'NIFTY REALTY' — trying yfinance
+2026-08-31 18:07:05,001  WARNING     ✗  NIFTY REALTY               no data
+2026-08-31 18:07:07,893  WARNING   NSE missing price for 'NIFTY IT' — trying yfinance
+2026-08-31 18:07:10,583  WARNING     ✗  NIFTY IT                   no data
+2026-08-31 18:07:13,984  WARNING   NSE missing price for 'NIFTY INFRASTRUCTURE' — trying yfinance
+2026-08-31 18:07:16,101  WARNING     ✗  NIFTY INFRA                no data
+2026-08-31 18:07:18,558  WARNING   NSE missing price for 'NIFTY PHARMA' — trying yfinance
+2026-08-31 18:07:21,750  WARNING     ✗  NIFTY PHARMA               no data
+2026-08-31 18:07:24,016  WARNING   NSE missing price for 'NIFTY FMCG' — trying yfinance
+2026-08-31 18:07:27,500  WARNING     ✗  NIFTY FMCG                 no data
+2026-08-31 18:07:30,507  WARNING   NSE missing price for 'NIFTY METAL' — trying yfinance
+2026-08-31 18:07:33,057  WARNING     ✗  NIFTY METAL                no data
+2026-08-31 18:07:36,261  WARNING   NSE missing price for 'NIFTY ENERGY' — trying yfinance
+2026-08-31 18:07:39,226  WARNING     ✗  NIFTY ENERGY               no data
+2026-08-31 18:07:41,247  INFO      fetch_all complete: 3/14 sectors with data
+2026-08-31 18:07:41,249  INFO             3/14 sectors with live data
+2026-08-31 18:07:41,249  INFO      
+[2/4]  Running pipeline (append ts → recompute stats → save JSON)…
+2026-08-31 18:07:41,277  INFO      Loaded /home/runner/work/sector-dashboard-data/sector-dashboard-data/sector_data.json  (38 KB)
+2026-08-31 18:07:41,277  INFO      Loaded medians_curated.json — 14 sectors with curated medians from screener (scraped_at=2026-08-31T23:35:55.122834+05:30)
+2026-08-31 18:07:41,277  INFO      
+  NIFTY 50
+2026-08-31 18:07:41,277  INFO          ts: updated 2026-08
+2026-08-31 18:07:41,278  INFO          pe=None  med5=22.06  gap=None  → fair
+2026-08-31 18:07:41,278  INFO      
+  NIFTY NEXT 50
+2026-08-31 18:07:41,278  INFO          ts: updated 2026-08
+2026-08-31 18:07:41,278  INFO          pe=None  med5=23.44  gap=None  → fair
+2026-08-31 18:07:41,278  INFO      
+  NIFTY SMALLCAP 250
+2026-08-31 18:07:41,278  WARNING       no price data — skipping this sector today
+2026-08-31 18:07:41,278  INFO      
+  NIFTY MICROCAP 250
+2026-08-31 18:07:41,278  WARNING       no price data — skipping this sector today
+2026-08-31 18:07:41,278  INFO      
+  NIFTY BANK
+2026-08-31 18:07:41,278  INFO          ts: skip 2026-08 — not a quarter-end month
+2026-08-31 18:07:41,279  INFO          pe=None  med5=16.18  gap=None  → fair
+2026-08-31 18:07:41,279  INFO      
+  NIFTY PSU BANK
+2026-08-31 18:07:41,279  WARNING       no price data — skipping this sector today
+2026-08-31 18:07:41,279  INFO      
+  NIFTY AUTO
+2026-08-31 18:07:41,279  WARNING       no price data — skipping this sector today
+2026-08-31 18:07:41,279  INFO      
+  NIFTY REALTY
+2026-08-31 18:07:41,279  WARNING       no price data — skipping this sector today
+2026-08-31 18:07:41,279  INFO      
+  NIFTY IT
+2026-08-31 18:07:41,279  WARNING       no price data — skipping this sector today
+2026-08-31 18:07:41,279  INFO      
+  NIFTY INFRA
+2026-08-31 18:07:41,279  WARNING       no price data — skipping this sector today
+2026-08-31 18:07:41,279  INFO      
+  NIFTY PHARMA
+2026-08-31 18:07:41,279  WARNING       no price data — skipping this sector today
+2026-08-31 18:07:41,279  INFO      
+  NIFTY FMCG
+2026-08-31 18:07:41,279  WARNING       no price data — skipping this sector today
+2026-08-31 18:07:41,279  INFO      
+  NIFTY METAL
+2026-08-31 18:07:41,279  WARNING       no price data — skipping this sector today
+2026-08-31 18:07:41,279  INFO      
+  NIFTY ENERGY
+2026-08-31 18:07:41,279  WARNING       no price data — skipping this sector today
+2026-08-31 18:07:41,284  INFO      
+Saved /home/runner/work/sector-dashboard-data/sector-dashboard-data/sector_data.json  (38 KB)  generated_at=2026-08-31T23:37:41.277682+05:30
+2026-08-31 18:07:41,284  INFO      
+  Sector                    PE      Med5    Gap     Class
+2026-08-31 18:07:41,284  INFO        ────────────────────────────────────────────────────────────
+2026-08-31 18:07:41,284  INFO        NIFTY BANK                 —       16.0     —        fair
+2026-08-31 18:07:41,284  INFO        NIFTY PSU BANK             8.48    8.5      +1.3%    fair
+2026-08-31 18:07:41,284  INFO        NIFTY AUTO                 30.62   29.4     +6.9%    fair
+2026-08-31 18:07:41,285  INFO        NIFTY REALTY               35.18   50.0     -28.6%   cheap
+2026-08-31 18:07:41,285  INFO        NIFTY IT                   22.47   27.8     -17.5%   fair
+2026-08-31 18:07:41,285  INFO        NIFTY INFRA                20.67   21.3     -5.4%    fair
+2026-08-31 18:07:41,285  INFO        NIFTY PHARMA               33.14   33.3     -1.7%    fair
+2026-08-31 18:07:41,285  INFO        NIFTY FMCG                 34.06   42.2     -19.8%   fair
+2026-08-31 18:07:41,285  INFO        NIFTY METAL                20.74   18.9     +9.5%    fair
+2026-08-31 18:07:41,285  INFO        NIFTY ENERGY               15.24   13.5     +9.8%    fair
+2026-08-31 18:07:41,285  INFO        NIFTY 50                   —       22.0     —        fair
+2026-08-31 18:07:41,285  INFO        NIFTY NEXT 50              —       22.9     —        fair
+2026-08-31 18:07:41,285  INFO        NIFTY MICROCAP 250         25.4    28.6     -11.2%   fair
+2026-08-31 18:07:41,285  INFO        NIFTY SMALLCAP 250         28.06   28.2     -2.1%    fair
+2026-08-31 18:07:41,285  INFO      
+[3/4]  Pushing to GitHub…
+2026-08-31 18:07:41,286  ERROR     GITHUB_TOKEN is not set — skipping push.  Run: setx GITHUB_TOKEN ghp_your_token_here
+2026-08-31 18:07:41,286  WARNING          Push failed — data saved locally but NOT on GitHub
+2026-08-31 18:07:41,286  WARNING          Dashboard will continue using its embedded/cached data
+2026-08-31 18:07:41,286  INFO      ────────────────────────────────────────────────────────────
+2026-08-31 18:07:41,286  INFO      Pipeline finished  2026-08-31 23:37 IST
+2026-08-31 18:07:41,287  INFO      ────────────────────────────────────────────────────────────
