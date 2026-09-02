@@ -1,6 +1,6 @@
 {
   "source": "screener.in /api/company/{id}/chart/ (Index PE + Median Index PE)",
-  "scraped_at": "2026-09-01T21:01:49.630701+05:30",
+  "scraped_at": "2026-09-02T20:43:50.921834+05:30",
   "note": "Auto-scraped via scrape_medians.py. Values parsed from 'Median Index PE = X'.",
   "medians": {
     "NIFTY 50": {
@@ -17,19 +17,19 @@
     },
     "NIFTY SMALLCAP 250": {
       "slug": "NIFTYSMLCAP250",
-      "median3y": 29.9,
+      "median3y": 30.0,
       "median5y": 28.3,
       "median10y": 30.0
     },
     "NIFTY MICROCAP 250": {
       "slug": "NIFTYMCAP250",
-      "median3y": 28.4,
+      "median3y": 28.3,
       "median5y": 28.3,
       "median10y": 28.3
     },
     "NIFTY BANK": {
       "slug": "BANKNIFTY",
-      "median3y": 15.0,
+      "median3y": 14.9,
       "median5y": 16.0,
       "median10y": 23.0
     },
@@ -47,14 +47,14 @@
     },
     "NIFTY REALTY": {
       "slug": "CNXREALTY",
-      "median3y": 46.5,
+      "median3y": 46.4,
       "median5y": 47.7,
       "median10y": 48.8
     },
     "NIFTY IT": {
       "slug": "CNXIT",
       "median3y": 27.7,
-      "median5y": 27.3,
+      "median5y": 27.2,
       "median10y": 25.1
     },
     "NIFTY INFRA": {
@@ -77,7 +77,7 @@
     },
     "NIFTY METAL": {
       "slug": "CNXMETAL",
-      "median3y": 20.9,
+      "median3y": 20.8,
       "median5y": 19.1,
       "median10y": 16.0
     },
@@ -85,7 +85,7 @@
       "slug": "CNXENERY",
       "median3y": 14.9,
       "median5y": 13.8,
-      "median10y": 13.9
+      "median10y": 14.0
     }
   }
 }
