@@ -1,6 +1,6 @@
 {
   "source": "screener.in /api/company/{id}/chart/ (Index PE + Median Index PE)",
-  "scraped_at": "2026-10-22T21:29:15.525686+05:30",
+  "scraped_at": "2026-10-23T21:21:05.424496+05:30",
   "note": "Auto-scraped via scrape_medians.py. Values parsed from 'Median Index PE = X'.",
   "medians": {
     "NIFTY 50": {
@@ -12,7 +12,7 @@
     "NIFTY NEXT 50": {
       "slug": "NIFTYJR",
       "median3y": 21.9,
-      "median5y": 22.6,
+      "median5y": 22.5,
       "median10y": 26.6
     },
     "NIFTY SMALLCAP 250": {
@@ -47,14 +47,14 @@
     },
     "NIFTY REALTY": {
       "slug": "CNXREALTY",
-      "median3y": 44.8,
-      "median5y": 46.6,
+      "median3y": 44.7,
+      "median5y": 46.5,
       "median10y": 48.9
     },
     "NIFTY IT": {
       "slug": "CNXIT",
       "median3y": 27.5,
-      "median5y": 27.1,
+      "median5y": 27.0,
       "median10y": 25.1
     },
     "NIFTY INFRA": {
@@ -65,7 +65,7 @@
     },
     "NIFTY PHARMA": {
       "slug": "CNXPHARMA",
-      "median3y": 34.7,
+      "median3y": 34.8,
       "median5y": 33.6,
       "median10y": 35.1
     },
